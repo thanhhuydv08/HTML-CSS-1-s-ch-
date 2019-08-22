@@ -1,0 +1,8 @@
+===================================thể input text ====================================
+ 1. cấu trúc : <input type="text" name="maLoai" value="${loaiSua.maLoaiSua}"  id="txtBox"/>
+               <input type="text" name="tenLoai" value="${loaiSua.tenLoai}"  id="txtBox"/>
+     -  kiểu text, tên biến maLoai, giá trị trong ô là tham chiếu của JSTL và id để xác định css cho ô
+     - yêu cầu thay đổi chiều rông dài của ô thì sao 
+          + css external : #txtbox{width : 200px}  // chú ý là # ko phải là . nhé ;
+(################### khi css thì bị lỗi các class và id -> tôi rút ra kinh nghiêm class ".tênclass" id "#tênid"  )        
+(################### khi css thì table muốn center thì ko dùng text-aline mà dùng margin : auto  )           
